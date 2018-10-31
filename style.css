@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+}
+
+.head {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  font-style: bold;
+}
+
+#name {
+  color: violet;
+}
+
+a:visited {
+  color: green;
+}
+
+.sites > li {
+  list-style-type: none;
+}
+
+ol:last-child {
+  font-weight: bold;;
+}
+
+.bug p:nth-child(2){
+  background-color: rgba(0,0,0,.5);
+}
+
+a.contact:hover {
+  color: red;
+}
+
+a:hover {
+  color: orange;
+}
+
+.language li{
+  font-style: italic;
+}
+
+ul, li {
+  list-style: none;
+}
