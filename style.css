@@ -1,0 +1,53 @@
+.headers{
+    color:red;
+    text-decoration: underline;
+    font-weight: bold;;
+}
+
+.sized{
+  height: 300px;
+  width: 250px;
+}
+
+#id-h1{
+  color:black;
+  size:20px;
+}
+
+h3 + p{
+  background-color: rgba(0,0,0,.5)
+}
+
+.emails a:hover{
+  background-color: red;
+}
+
+.noBullets{
+  list-style: none;
+}
+
+.noBullets a:hover {
+  background-color: orange;
+}
+
+ol li:last-child{
+  font-weight: bold;
+}
+
+.languages{
+  font-style: italic;
+}
+
+body{
+  text-align: center;
+}
+
+
+/* attempting to change a tag - changing starting color as black so when visted it should over write color */
+a{
+  color: black;
+}
+
+a:visited{
+    color: green;
+}
