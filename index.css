@@ -1,0 +1,53 @@
+.header{
+  text-decoration:underline;
+  font-weight: bold;
+}
+
+#turnpurple{
+  color:purple;
+}
+
+ul {
+list-style-type: none;
+}
+
+img[src^="https"]{
+  height: 100px;
+  width:100px;
+}
+
+a:visited[href$=".com"]{
+  color: green;
+}
+
+.languages{
+  font-style: italic;
+}
+
+#change{
+  background-color: rgba(0,0,0,.5);
+}
+
+#this{
+  font-style: italic;
+}
+
+ ol > li:last-child {
+    font-weight: bold;
+}
+ a:hover {
+    color: orange;
+}
+ #email:hover {
+    color: red;
+}
+ #language li {
+    font-style: italic;
+}
+
+body{
+  text-align: center;
+}
+
+ .bug + p {
+    background-color: rgba(0,0,0,.5);
