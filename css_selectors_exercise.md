@@ -8,7 +8,7 @@
 6. Using a class name in the ul remove all of the li's bullet points in the list of .coms.
 7. In the ol change only the last child element to be bold. Look it up!
 8. Give the contact email a hover effect of turning red.
-9. Give all other links a hover effect of turning orange.
+9. Give all other links a hover effect of turning orange.a
 10. Inside of your languages ul, change the font to be in italics.
 11. Center all text inside the body.
 12. In the hardest bug so far, change only the first p tag using a selector on the div. Give it this: background-color: rgba(0,0,0,.5);
