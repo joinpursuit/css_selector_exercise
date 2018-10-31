@@ -1,0 +1,67 @@
+body {
+  background-color: #ffecd3;
+  text-align: center;
+}
+.header {
+  text-decoration: underline;
+  font-weight: bold;
+  font: sans-serif;
+}
+.contact {
+  background-color: #5f7887;
+}
+img[src^="http"]{
+  border: 10px solid #5f7887;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 15px;
+}
+a:hover[href^="mailto"] {
+  color: red;
+}
+.unique {
+  color: #5f7887;
+  text-align: center;
+  font-size: 100px;
+}
+
+a:visited{
+  color: green;
+  font-family: serif;
+}
+a:link{
+  color: blue;
+}
+a:hover {
+    color: orange;
+}
+
+a[href$=".com"]{
+  list-style-type: none;
+  margin-left: 25px;
+}
+.noPoints{
+  list-style-type: none;
+}
+ol > li {
+  font-style: oblique;
+  font-size: 20px;
+  font-weight: bold;
+  color: blue;
+  margin: inherit;
+}
+ul{
+  font-style: italic;
+  list-style: none;
+}
+
+p:first-child {
+    /* background-color: rgba(0,0,0,.5); */
+    margin: 30px;
+    padding: 20px;
+}
+.firstP{
+    background-color: rgba(0,0,0,.5);
+}
