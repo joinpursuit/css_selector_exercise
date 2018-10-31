@@ -1,0 +1,42 @@
+.heading {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+img[src^=https] {
+  width: 290px;
+  height: 300px;
+}
+
+#name {
+  color: blue;
+}
+
+a[href$=".com"]:visited {
+  color: green;
+}
+
+.heading-list2 {
+  list-style: none;
+}
+
+ul > li {
+  font-weight: bold;
+  font-style: italic;
+}
+
+a:hover {
+  color: red;
+}
+
+a[href^="https://"]:hover {
+  color: orange;
+}
+
+body {
+  text-align: center;
+}
+
+.firstP p:first-of-type {
+  background-color: rgba(0,0,0,.5);
+}
