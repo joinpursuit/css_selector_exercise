@@ -1,0 +1,53 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-style: bold;
+  text-decoration: underline;
+}
+
+img {
+  size :50%
+}
+#firsth1 {
+  color: green;
+}
+/* unvisited link */
+
+a:hover {
+    color:orange;
+}
+a:visited {
+  color: green;
+}
+
+a:hover[href="mailto:corey@pursuit.org"] {
+  color: red;
+}
+.something li {
+  list-style: none;
+}
+
+ol li:last-child {
+  font-weight: bold;
+}
+.jacky li {
+  font-style: italic;
+}
+body{
+  text-align: center;
+}
+ul{
+  list-style-position:inside;
+}
+ol{
+  list-style-position: inside;
+}
+.fwaa p:first-of-type{
+  background-color: rgba(0,0,0,.5);
+}
+img[src^="https:"]{
+
+    width: 50%;
+}
