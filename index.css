@@ -1,16 +1,18 @@
 body{
-    margin-left: 20%;
-    margin-right: 20%;
     padding: 10;
     background-color: yellow;
     text-align: center;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    grid-auto-flow: dense;
     
 }
 
+form{
+    visibility: hidden;
+}
 .header {
     color: rgb(18, 0, 0);
-    text-decoration: underline;
     font-weight: bold;
 }
 
@@ -53,6 +55,6 @@ a:hover:visited{
 }
 
 img[src^="https:"] {
-    max-height: 400px;
+    width: auto;
 
 }
