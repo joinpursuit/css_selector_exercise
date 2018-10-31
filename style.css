@@ -1,0 +1,66 @@
+/*  Jonathan Erquinigo*/
+.bold{
+  text-decoration: underline;
+  font-weight: bold;
+}
+body{
+  text-align: center;
+}
+.colorP{
+  background-color: rgba(0,0,0,.5);
+}
+
+#picture{
+  width:300px;
+}
+
+.languageList{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#colorh1{
+  color: #388E8E;
+}
+.mail:hover{
+  color:red;
+}
+.orangeLink:hover{
+  color: orange;
+}
+a:visited[href$=".com"]{
+  color:green;
+}
+
+.noBullets{
+  list-style-type: none;
+}
+#liOrder{
+  list-style-position: inside;
+  list-style-position: inherit;
+
+}
+
+ul > li{
+  font-style: italic;
+  width:100px;
+  list-style-type: none;
+}
+
+ol > li{
+  font-weight: bold;
+  width:100px;
+  list-style-type: none;
+}
+
+
+/* a:hover​ ​{
+    text-decoration:​ ​underline;
+} */
+/* A[href =”http://google.com”]{
+color:purple */
+/*
+a:visited {
+    color: pink;
+} */

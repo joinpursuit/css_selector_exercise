@@ -1,57 +1,66 @@
+<!-- Jonathan Erquinigo -->
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>CSS Intro</title>
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
 
-    <h1>Your Name Here</h1>
-
+    <h1 class="bold" id="colorh1">Jonathan.E</h1>
+    <div class="colorP">
       <p>This is a bunch of information about myself. I'm from here and there and discovered my
       love of programming when this happend. When I'm not working I'm busy doing this and that.
     </p>
+  </div>
 
 
-    <img src="https://s3.amazonaws.com/helpcoreyladovskyprojectdev/users/images/000/000/005/original/default.jpg" alt="" >
+    <img id="picture"src="https://s3.amazonaws.com/helpcoreyladovskyprojectdev/users/images/000/000/005/original/default.jpg" alt="" >
 
     <div >
-      <h3>Here are some of my Skills!</h3>
+      <h3 class="bold">Here are some of my Skills!</h3>
       <ul>
-        <h3>Languages</h3>
+        <h3 class="bold">Languages</h3>
+        <div class="liOrder">
         <li>JavaScript</li>
         <li>SQL</li>
         <li>HTML5</li>
         <li>CSS3</li>
-
+      </div>
       </ul>
 
       <ol>
-        <h3>Librarys</h3>
+        <h3 class="bold">Librarys</h3>
+        <div class="liOrder">
         <li>React</li>
         <li>PostgreSQL</li>
         <li>Node</li>
         <li>Bootstrap</li>
-
+      </div>
       </ol>
     </div>
 
     <div>
-      <h3>Hardest Bug So Far</h3>
+      <h3 class="bold">Hardest Bug So Far</h3>
       <p>My hardest bug I ever came across was this infinite loop I couldn't escape. </p>
       <p>I came up with a totally sick solution though by doing ... </p>
     </div>
 
-    <h2>Contact Me</h2>
+    <h2 class="bold">Contact Me</h2>
     <div>
-     Email me at: <a href="mailto:corey@pursuit.org" target="_top">corey@pursuit.org</a>
+     Email me at: <a class="mail"href="mailto:corey@pursuit.org" target="_top">corey@pursuit.org</a>
     </div>
 
-    <ul>
-      <li> <a href="github.com">github link</a> </li>
-      <li> <a href="linkedin.com">LinkedIn link</a> </li>
-      <li> <a href="angellist.com">Angel list link</a> </li>
+<p=id"test">test</p>
+
+    <ul class="noBullets">
+      <div class ="liOrder">
+      <li><a class="orangeLink" href="https://google.com">google.com</a></li>
+      <li> <a class="orangeLink" href="github.com">github link</a> </li>
+      <li> <a class="orangeLink" href="linkedin.com">LinkedIn link</a> </li>
+      <li> <a class="orangeLink" href="angellist.com">Angel list link</a> </li>
     </ul>
+  </div>
   </body>
 </html>
