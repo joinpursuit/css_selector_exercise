@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+  list-style-position: inside;
+}
+.header {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+img[src^="https://"]{
+  height: 200px;
+  width: auto;
+}
+
+#name {
+  color: brown;
+}
+
+a:hover {
+  color: orange;
+}
+
+a[href^="mailto"]:hover {
+  color: red;
+}
+
+a[href$=".com"]:visited {
+  color: green;
+}
+
+.links {
+  list-style: none;
+}
+
+.languages {
+  font-style: italic;
+}
+
+div p#first {
+  background-color: rgba(0,0,0,.5);
+}
+
+ol li:last-child {
+  font-weight: bold;
+}
