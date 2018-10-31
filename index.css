@@ -1,0 +1,40 @@
+.first{
+  text-decoration: underline;
+  font-weight: bold;
+}
+#otherh1{
+  color: red;
+}
+#firsth3{
+  text-decoration: underline;
+  font-style: bold;
+}
+img[src^=http] {
+  border: 3px blue solid;
+  width: 20%;
+  height: 10%
+}
+a[href$=".com"]:visited {
+  color: green;
+}
+.bullet{
+  list-style: none;
+}
+ol li:last-child {
+  font-weight: bold;
+}
+a[href$=".org"]:hover{
+  color: red;
+}
+a[href^="http://"]:hover{
+  color: orange;
+}
+.word{
+  font-style: italic;
+}
+body{
+  text-align: center;
+}
+div > p.new {
+  background-color: rgba(0,0,0,.5);
+}
