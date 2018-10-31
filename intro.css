@@ -1,0 +1,68 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid red;
+}
+
+body {
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 400px;
+  font-family: 'Spicy Rice', cursive;
+  color: rgb(244, 66, 244)
+}
+ol {
+  list-style-type: none;
+  font-weight: 900;
+}
+ul {
+  list-style-type: none;
+}
+li{
+  text-align: center;
+  border: 1px red solid;
+  border-radius: 30px;
+  color: blue;
+  background: rgb(244, 66, 244)
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+h3{
+  text-decoration: underline;
+}
+
+.header{
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+#h1 {
+  color: rgb(244, 235, 66);
+}
+
+a:visited​{
+    color: green;
+}
+.email:hover{
+  color: red
+}
+a:hover{
+  color: orange;
+}
+ul > li {
+  font-style: italic;
+}
+body{
+  text-align: center;
+}
+
+h1 p {
+  background-color: rgba(0,0,0,.5);
+}
