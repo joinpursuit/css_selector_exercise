@@ -1,0 +1,46 @@
+.headingz {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#h1yo {
+  color: darkgreen;
+}
+
+img[src^="https"] {
+  border: 2px solid darkgreen;
+  width: 600px;
+  height: 500px;
+}
+
+#langUl {
+  font-style: italic;
+}
+
+ol li:last-child {
+  font-weight: bold;
+}
+
+body {
+  text-align: center;
+  list-style-position: inside;
+}
+a[href$=".com"]:visited​ ​ {
+  color: ​darkgreen​green;
+}
+
+a: hover {
+  cursor: pointer;
+  color: orange;
+}
+
+#contact-box,a: hover {
+  cursor: pointer;
+  color: red;
+}
+.coms {
+  list-style: none;
+}
+#hardestB::first-line {
+  background-color: rgba(0, 0, 0, 0.5);
+}
