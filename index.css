@@ -1,0 +1,58 @@
+body{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 10;
+    background-color: yellow;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.header {
+    color: rgb(18, 0, 0);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.profile{
+    color: rgb(249, 0, 0);
+    font-family: "mali", cursive;
+    font-size: 78px;
+    
+}
+
+.link{
+    list-style: none;
+}
+
+ol li:last-child {
+    font-weight: bold;
+}
+
+.link:hover{
+    color: red;
+}
+
+a:hover{
+    color: orange;
+}
+
+#Skills ul li {
+    font-style: italic;
+}
+
+.Buggy p:first-of-type {
+    background-color: rgba(0, 0, 0, .5)
+}
+
+a:visited{
+    color: greenyellow
+}
+a:hover:visited{
+    color: green
+}
+
+img[src^="https:"] {
+    max-height: 400px;
+
+}
