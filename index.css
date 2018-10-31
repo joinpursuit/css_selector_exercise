@@ -1,0 +1,45 @@
+.first{
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+img[src^=http]{
+  width: 400px;
+  height: 400px;
+}
+
+#color{
+  color: red;
+}
+
+a:visited[href$=".com"]{
+  color: green;
+}
+
+a:hover[href="mailto:corey@pursuit.org"]{
+  color: purple;
+}
+
+a:hover{
+  color: orange;
+}
+
+body{
+  text-align: center;
+}
+
+#ital{
+  font-style: italic;
+}
+
+.ulcontact{
+  list-style: none;
+}
+
+ol li:last-child{
+  font-weight: bold;
+}
+
+div > #background{
+  background-color:rgba(0,0,0,.5);
+}
