@@ -1,0 +1,45 @@
+.head {
+  text-decoration: underline;
+
+}
+
+img[src^="https"] {
+  width: 25%;
+  height: 25%;
+}
+
+
+#hi {
+  color: #8f7291;
+}
+
+a:visited {
+  color: pink;
+}
+
+.coms {
+  list-style: none;
+}
+
+ol :last-child {
+    font-weight: bold;
+}
+
+a:hover {
+  color: orange;
+}
+
+a.contact:hover{
+  color: red;
+}
+
+ul > li {
+  font-style: italic;
+}
+
+body {
+  text-align: center;
+}
+p.one {
+  background-color: rgba(0,0,0,.5);
+}
