@@ -1,0 +1,57 @@
+body {
+  background-color: hsla(0, 100%, 90%, 0.3);
+  text-align: center;
+}
+
+.headers {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+img[src^="https://"] {
+  width: 30px;
+}
+
+#header1 {
+  color: gray;
+  width: 400px;
+  padding: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0, 25, 200, 0.3);
+  box-shadow: 8px 5px #888;
+}
+
+a[href$=".com"]:visited {
+  color: green;
+}
+
+.ulbullet {
+  list-style: none;
+}
+
+ol li:last-child {
+  font-weight: bold;
+}
+
+a:hover[href^="mailto:"] {
+  color: red;
+}
+
+a:hover {
+  background-color: rgba(255, 0, 0, 0.01);
+  color: orange;
+}
+
+.languages {
+  font-style: italic;
+}
+
+div > p:first-of-type {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 480px;
+}
