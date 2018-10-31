@@ -1,0 +1,47 @@
+.headers {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+img {
+    width: 20%;
+    height: 20%;
+}
+
+.head1 {
+    color: blueviolet;
+
+}
+
+a:visited {
+    color: green;
+}
+
+.links {
+    list-style-type: none;
+}
+
+ol > li:last-child {
+    font-weight: bold;
+}
+
+a:hover {
+    color: orange;
+}
+
+#email:hover {
+    color: red;
+}
+
+#language li {
+    font-style: italic;
+}
+
+body {
+   
+        text-align:center;
+}
+
+.bug + p {
+    background-color: rgba(0,0,0,.5);
+}
