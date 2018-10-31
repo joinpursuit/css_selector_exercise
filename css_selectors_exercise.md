@@ -5,7 +5,7 @@
 3. Change the size of all img tags that have a src that starts with https.
 4. Give the h1 tag a unique id and make turn it to the color of your choice.
 5. All links that end in .com should be the color green after a visit to the link.
-6. Using a class name in the ul remove all of the li's bullet points in the list of .coms.
+6. Using a class name in the ul to remove all of the li's bullet points in the list of .coms.
 7. In the ol change only the last child element to be bold. Look it up!
 8. Give the contact email a hover effect of turning red.
 9. Give all other links a hover effect of turning orange.
