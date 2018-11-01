@@ -1,0 +1,38 @@
+.headerTags{
+  text-decoration: underline;
+  font-weight: bold;
+}
+ /* :visited {
+    color: green;
+} */
+a:visited[href$=".com"]{
+  color: green;
+}
+
+.noBullet{
+  list-style-type: none;
+}
+
+ol > li:last-child {
+  font-weight: bold;
+}
+
+a:hover[href$=".org"]{
+  color: red;
+}
+
+a:hover[href$=".com"]{
+  color: orange;
+}
+
+ul li{
+  font-style: italic;
+}
+
+.centerTxt{
+  text-align: center
+}
+
+div > p:nth-child(2){
+    background-color: rgba(0,0,0,.5);
+}
