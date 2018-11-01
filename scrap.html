@@ -1,0 +1,218 @@
+https://blog.teamtreehouse.com/5-useful-css-selectors
+
+cartoon walking transparent background:
+
+<div>
+  <div class="spiders" id="spider1">
+    <marquee direction="down" behavior="scroll" ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy6D24nbk7YRuIv37GGeZIMei-VjxC8LKCwNomTOOss0Ener9e3A" alt=""></marquee>
+  </div>
+  <div class="spiders" id="spider2">
+    <marquee direction="down" behavior="scroll" scrolldelay="170" ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy6D24nbk7YRuIv37GGeZIMei-VjxC8LKCwNomTOOss0Ener9e3A" alt=""></marquee>
+  </div>
+</div>
+
+<marquee behavior="alternate" direction="right"><img class="girl" src="./assets/scaredGirl.jpg" alt=""></marquee>
+
+<marquee behavior="alternate" direction="right"
+width="25%"><img src="https://ak7.picdn.net/shutterstock/videos/23277697/thumb/1.jpg?i10c=img.resize(height:160)" alt=""></marquee>
+
+<!-- <marquee  direction="left"><img  src="https://ak4.picdn.net/shutterstock/videos/11682164/thumb/1.jpg" alt="" ></marquee> -->
+
+
+<!-- <marquee behavior="alternate"><img src="https://ak9.picdn.net/shutterstock/videos/32865409/thumb/1.jpg" alt=""></marquee> -->
+
+
+div .girl: hover {
+  width: 350px;
+  ontent: :url("https://loinhacviet.info/images/calm-clipart-calm-child-18.png");
+  text-indent: -9999px;
+}
+
+
+change image on hover
+
+
+spider png transparent
+
+
+<div class="spiders" id="spider1">
+  <marquee direction="down" behavior="scroll"
+  scrolldelay="85" ><img src="http://pluspng.com/img-png/spider-png-image-450.png" alt=""></marquee>
+</div>
+
+
+//
+
+<marquee behavior="alternate" scrollamount="40">
+
+  <div id="girl">
+  </div>
+
+</marquee>
+
+
+#girl {
+  width: 100%;
+  height: 700px;
+  /* height: fit-content; */
+ background-image: url('./assets/scaredBoy.png');
+ background-repeat: no-repeat;
+
+}
+
+#girl:hover {
+ background-image: url("./assets/calmGirl.png") no-repeat;
+}
+
+//
+
+/* .spiders {
+  display: inline;
+  margin-left: 5%;
+  float: left;
+  border-radius: 50%;
+  width: 50px; */
+  /* background: transparent;
+  border: none; */
+
+/* } */
+
+.spiders {
+  width: 100%;
+  height: 700px;
+  /* background-image: url("http://pluspng.com/img-png/spider-png-image-450.png"); */
+}
+
+/* .spiders:hover {
+  background-image:radial-gradient(yellow, white);
+  border-radius: 50%
+} */
+
+#spider2 {
+  float: left;
+}
+
+#spider3 {
+  float: left;
+}
+
+#spider4 {
+  float: left;
+}
+
+#spider5 {
+  float: left;
+}
+
+#spider6 {
+  float: left;
+}
+
+
+/* #girl {
+  width: 100%;
+  height: 700px;
+  background-image: url('./assets/scaredBoy.png');
+  background-repeat: no-repeat;
+} */
+
+#girl:hover {
+  background-image: url("./assets/calmGirl.png") no-repeat;
+}
+
+//
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CSS Intro</title>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+
+    <div id="h1background">
+      <h1 class="headers" id="h1tag">~ Nielene Thomas ~</h1>
+    </div>
+
+
+
+<!-- <div id="animation">
+  <div>
+
+    <marquee direction="down" behavior="scroll"
+    scrolldelay="85" >
+    <div class="spiders" id="spider6">
+      <img src="http://pluspng.com/img-png/spider-png-image-450.png" alt="">
+    </div>
+    </marquee>
+
+    <marquee direction="down" behavior="scroll" scrolldelay="170" >
+      <div class="spiders" id="spider2">
+        <img src="http://pluspng.com/img-png/spider-png-image-450.png" alt="">
+      </div>
+    </marquee>
+
+  </div>
+</div> -->
+
+
+  <marquee behavior="alternate" scrollamount="40">
+
+    <div id="girl">
+      <img src="http://pluspng.com/img-png/spider-png-image-450.png" alt="">
+      <!-- <img src="./assets/scaredBoy.png" alt=""> -->
+    </div>
+
+  </marquee>
+
+
+  <div>
+    <p>This is a bunch of information about myself. I'm from here and there and discovered my
+    love of programming when this happend. When I'm not working I'm busy doing this and that.
+    </p>
+  </div>
+
+
+
+    <div >
+      <h3 class="headers">Here are some of my Skills!</h3>
+      <ul id="languagesUL">
+        <h3>Languages</h3>
+        <li>JavaScript</li>
+        <li>SQL</li>
+        <li>HTML5</li>
+        <li>CSS3</li>
+
+      </ul>
+
+      <ol>
+        <h3>Librarys</h3>
+        <li>React</li>
+        <li>PostgreSQL</li>
+        <li>Node</li>
+        <li>Bootstrap</li>
+      </ol>
+
+    </div>
+
+    <div id="qu12">
+      <h3 class="headers">Hardest Bug So Far</h3>
+      <p>The hardest bug I ever came across was this infinite loop I couldn't escape. </p>
+      <p>I came up with a totally sick solution though by doing ... </p>
+    </div>
+
+    <h2 class="headers">Contact Me</h2>
+    <div>
+     Email me at: <a href="mailto:corey@pursuit.org" target="_top">corey@pursuit.org</a>
+    </div>
+
+    <ul class="dotcoms">
+      <li> <a href="https://github.com">github link</a> </li>
+      <li> <a href="https://www.linkedin.com" >LinkedIn link</a> </li>
+      <li> <a href="https://angel.co">Angel list link</a> </li>
+    </ul>
+  </body>
+</html>
+
+//
