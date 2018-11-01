@@ -1,3 +1,5 @@
+https://github.com/joinpursuit/Pursuit-Core-Web/blob/master/html_css_dom/css_selectors/css_selectors.md
+
 # CSS Selector Exercise
 
 1. Add a link in the index.html to a css file.
