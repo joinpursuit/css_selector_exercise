@@ -10,6 +10,8 @@
 }
 
 h1 {
+  display: flex;
+  justify-content: center;
   padding: 15px;
   margin-bottom: 20px;
   color: black;
@@ -23,6 +25,8 @@ h1 {
 }
 
 .header {
+  display: flex;
+  justify-content: center;
   text-decoration: underline;
   font-weight: bold;
   text-align: center;
@@ -30,6 +34,8 @@ h1 {
 }
 
 p {
+  display: flex;
+  justify-content: center;
   margin-top: 10px;
   font-size: 20px;
   color: silver;
@@ -44,6 +50,8 @@ img[src^="https"] {
 }
 
 li {
+  display: flex;
+  justify-content: center;
   padding-top: 10px;
   padding-bottom: 10px;
   margin: 0px;
@@ -57,4 +65,10 @@ ul {
 
 a[href^="https"] {
   resize: both %50;
+}
+
+.list {
+  display: flex;
+  flex: center;
+  justify-content: center;
 }
