@@ -1,0 +1,44 @@
+.header {
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+#theheader {
+   color: #db9833;
+ }
+
+ img {
+   width: 200px;
+   height: 200px;
+ }
+a {
+  color: blue
+}
+ a:visited {
+     color: green;
+ }
+.lastul  {
+  list-style: none;
+}
+
+ol > li:last-child {
+  font-weight: bolder;
+}
+
+a[href="mailto:corey@pursuit.org"]:hover {
+  color: red;
+}
+
+a[href$=".com"]:hover{
+  color:orange;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+}
+
+#this{
+
+  background-color: rgba(0,0,0,.5);
+}
