@@ -1,0 +1,59 @@
+
+.h1{
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#h1{
+  color: blue;
+}
+
+.h2{
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.h3 {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+h3 p{
+   background-color: rgba(0,0,0,.5);
+}
+
+img{
+  width: 30%
+}
+
+a[href$=”mailto”]​ ​{
+    color:​ ​red;
+}
+
+}
+a:visited {
+  color: green;
+
+}
+
+.ul_li{
+  list-style: none;
+}
+
+ul li{
+  font-style: italic;
+}
+
+ol:last-child{
+  font-weight: bold;
+
+}
+
+a:hover{
+  color: #FF9C00;
+
+}
+
+body{
+  text-align: center;
+}
