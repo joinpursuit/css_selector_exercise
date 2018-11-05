@@ -1,0 +1,48 @@
+body {
+  text-align:center}
+
+
+h1 h2 {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+h1 p {
+  background-color: rgba(0,0,0,.5);
+}
+
+#firsth1 {
+  color: gray;
+}
+
+#picture {
+  height: 400px;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+ul > li {
+  list-style: none;
+  color: orange;
+}
+
+
+ol li:last-child {
+   font-weight: bold;
+}
+
+a:hover {
+    color: orange;
+}
+
+ /* .link:hover {
+    color: red;
+} */
+
+/* a[href$=”.com”]:visited​ ​{ */
+/* a:hover​ ​{
+  color:​ ​green;
+} */
