@@ -1,0 +1,35 @@
+.header {
+    font-weight: bold;
+    text-decoration: underline;
+}
+img[src^='https'] {
+    width: 300px;
+}
+#h1 {
+    color: yellow;
+}
+a[href$='.com']:visited {
+    color: green;
+}
+.ul {
+    list-style-type: none;
+}
+ol:last-child {
+    font-weight: bold;
+}
+a[href^='mailto']:hover {
+    color: red;
+    background: black;
+}
+a:hover {
+    color: orange;
+}
+ul>li {
+    font-style: italic;
+}
+body {
+    text-align: center;
+}
+div>p:first-of-type {
+    background: rgba(0,0,0,.5);
+}
