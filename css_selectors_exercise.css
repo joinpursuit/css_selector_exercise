@@ -1,0 +1,44 @@
+.heading {
+    text-decoration: underline;
+    font-weight: bold;
+ }
+
+ img[src^="https:"] {
+   width: 400px;
+   height: 400px;  
+ }
+
+ #name {
+   color: red;
+   font-style: italic
+ }
+
+ a:visited[href$=".com"] {
+color: green
+ }
+
+ .list {
+list-style: none;
+ }
+
+ div> ol>li:last-child{
+   font-weight: bold;
+ }
+ a:hover[href$=".org"] {
+   color: red;
+ }
+
+ a:hover[href^="https:"]{
+   color: orange;
+ }
+
+#Italic {
+  font-style: italic;
+}
+body {
+text-align: center;
+list-style-position: inside;
+}
+.background p:nth-child(2) {
+  background-color:rgba(0, 0, 0, .5);
+}
