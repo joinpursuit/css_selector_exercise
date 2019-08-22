@@ -1,0 +1,46 @@
+.heading {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+img[src^=https] {
+    width: 200px;
+    height: 200px;
+}
+
+#name {
+    color: orangered;
+}
+
+a[href$=".com"]:visited {
+    color: green
+}
+
+.list-unStyle {
+    list-style: none;
+}
+
+div>ol>li:last-child {
+    font-weight: bold;
+}
+
+a:hover {
+    color: red;
+}
+
+a[href$=".com"]:hover {
+    color: orange;
+}
+
+#changeAllList {
+    font-style: italic;
+}
+
+body {
+    text-align: center;
+    display: inline-block;
+}
+
+#changingP p:nth-child(2) {
+    background-color: rgba(0, 0, 0, .5);
+}
