@@ -10,9 +10,13 @@ a:hover {
   color: orange;
 }
 
-[img^=https] {
-  height: 200px;
-  width: 200px;
+a:visited[href$=".com"] {
+  color: green;
+}
+
+img[src^="https"] {
+  height: 300px;
+  width: 300px;
 }
 
 .headers {
