@@ -1,0 +1,50 @@
+body {
+  background-color: lightslategrey;
+  color: mintcream;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+a:hover {
+  color: orange;
+}
+
+[img^=https] {
+  height: 200px;
+  width: 200px;
+}
+
+.headers {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.languagesList li {
+  font-style: italic;
+  list-style-position: inside;
+}
+
+.socialMediaLinks li {
+  list-style: none;
+}
+
+#bugDescriptionSection p:first-of-type {
+  background-color: rgba(0,0,0,5);
+}
+
+#contactEmail:hover {
+  color: red;
+}
+
+#firstHeaderColor {
+  color: mediumaquamarine;
+}
+
+#librariesList li {
+  list-style-position: inside;
+}
+
+#librariesList li:last-of-type {
+  font-weight: bold;
+}
